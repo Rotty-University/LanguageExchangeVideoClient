@@ -1,4 +1,4 @@
-# [Hack@Brown2021] Language Exchange API
+# [Hack@Brown2021] Language Exchange Video Service
 
 App that connects people who are trying to learn different languages with each other (person A speaks English and wants to learn Spanish so it matches them with Person B who is from Spain and wants to learn English)
 
