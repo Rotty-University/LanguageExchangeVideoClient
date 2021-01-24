@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "prestart": "tsc",
+    "prestart": "npm install",
+    "postinstall": "npm run tsc",
+    "tsc" : "tsc",
     "start": "node dist/index.js",
     "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts"
   },
