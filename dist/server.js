@@ -11,7 +11,7 @@ const path_1 = __importDefault(require("path"));
 class Server {
     constructor() {
         this.activeSockets = [];
-        this.DEFAULT_PORT = 5000;
+        this.DEFAULT_PORT = process.env.PORT || 5000;
         this.app = express_1.default();
         this.httpServer = http_1.createServer(this.app);
         this.io = socket_io_1.default(this.httpServer);

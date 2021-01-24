@@ -7,6 +7,6 @@ export declare class Server {
     constructor();
     private handleRoutes;
     private handleSocketConnection;
-    listen(callback: (port: number) => void): void;
+    listen(callback: (port: any) => void): void;
     private configureApp;
 }
